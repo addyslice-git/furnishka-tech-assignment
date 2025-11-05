@@ -1,0 +1,17 @@
+# Ignore environment files
+.env
+.env.sample
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite databases and generated lead files
+data/*.db
+new_leads.json
+new_leads.csv
+
+# IDE / editor metadata
+.vscode/
+.idea/
